@@ -7,3 +7,4 @@ venv/
 results/
 data/test_images/synthetic_degraded_sample.png
 .DS_Store
+.venv/
