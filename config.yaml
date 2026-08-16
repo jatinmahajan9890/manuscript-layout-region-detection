@@ -1,0 +1,23 @@
+# Tunable thresholds for the layout classifier.
+# All ratios are relative to page height/width or page/region area unless noted.
+# Copy this file, adjust for a specific manuscript collection, and pass
+# it via `--config my_config.yaml`.
+
+header_band: 0.14              # top fraction of the page treated as the header band
+footer_band: 0.14              # bottom fraction of the page treated as the footer band
+margin_max_lines: 2            # header/footer blocks rarely exceed this many text lines
+margin_max_height_ratio: 0.10  # header/footer blocks rarely exceed this page-height fraction
+
+min_area_ratio_large: 0.03      # blocks above this area ratio define the "body column" span
+body_min_width_ratio: 0.35      # a block must span at least this much of the page width to count toward the body column
+main_text_min_lines: 3          # main_text blocks typically contain at least this many lines
+
+side_text_slack: 0.06          # extra body-width fraction allowed when testing left/right placement
+
+filler_max_area_ratio: 0.015    # blocks smaller than this area ratio lean toward "filler"
+filler_max_density: 0.12        # blocks sparser than this ink density lean toward "filler"
+filler_max_line_height_ratio: 0.02
+isolated_mark_max_width_ratio: 0.035   # marks smaller than this (both dims) can't be a real header/footer/side_text block
+isolated_mark_max_height_ratio: 0.035
+
+min_region_area_ratio: 0.00008  # proposals smaller than this are dropped as noise before classification
