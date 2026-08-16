@@ -1,0 +1,164 @@
+{
+  "image": "paper_sample.png",
+  "source_path": "data/test_images/paper_sample.png",
+  "page_width": 2047,
+  "page_height": 774,
+  "estimated_skew_deg": 0.284,
+  "processing_time_s": 0.215,
+  "num_regions": 9,
+  "regions": [
+    {
+      "label": "filler",
+      "confidence": 0.9073,
+      "bbox": {
+        "x1": 25,
+        "y1": 6,
+        "x2": 35,
+        "y2": 28
+      },
+      "scores": {
+        "header": 1.5,
+        "footer": -3.0,
+        "main_text": -2.999,
+        "side_text": 0.0,
+        "filler": 4.0
+      }
+    },
+    {
+      "label": "filler",
+      "confidence": 0.9073,
+      "bbox": {
+        "x1": 24,
+        "y1": 27,
+        "x2": 32,
+        "y2": 50
+      },
+      "scores": {
+        "header": 1.5,
+        "footer": -3.0,
+        "main_text": -3.0,
+        "side_text": 0.0,
+        "filler": 4.0
+      }
+    },
+    {
+      "label": "header",
+      "confidence": 0.9472,
+      "bbox": {
+        "x1": 590,
+        "y1": 27,
+        "x2": 1459,
+        "y2": 50
+      },
+      "scores": {
+        "header": 4.494,
+        "footer": -0.006,
+        "main_text": 0.051,
+        "side_text": -1.5,
+        "filler": 1.0
+      }
+    },
+    {
+      "label": "filler",
+      "confidence": 0.9505,
+      "bbox": {
+        "x1": 1456,
+        "y1": 91,
+        "x2": 1481,
+        "y2": 101
+      },
+      "scores": {
+        "header": 1.5,
+        "footer": -3.0,
+        "main_text": -1.999,
+        "side_text": -4.0,
+        "filler": 4.5
+      }
+    },
+    {
+      "label": "filler",
+      "confidence": 0.9505,
+      "bbox": {
+        "x1": 312,
+        "y1": 97,
+        "x2": 340,
+        "y2": 101
+      },
+      "scores": {
+        "header": 1.5,
+        "footer": -3.0,
+        "main_text": -2.0,
+        "side_text": -4.0,
+        "filler": 4.5
+      }
+    },
+    {
+      "label": "side_text",
+      "confidence": 0.7023,
+      "bbox": {
+        "x1": 26,
+        "y1": 100,
+        "x2": 41,
+        "y2": 749
+      },
+      "scores": {
+        "header": -2.503,
+        "footer": -2.503,
+        "main_text": 0.525,
+        "side_text": 3.5,
+        "filler": 2.5
+      }
+    },
+    {
+      "label": "main_text",
+      "confidence": 0.9992,
+      "bbox": {
+        "x1": 235,
+        "y1": 100,
+        "x2": 2047,
+        "y2": 749
+      },
+      "scores": {
+        "header": -2.871,
+        "footer": -2.871,
+        "main_text": 6.5,
+        "side_text": -1.5,
+        "filler": -1.5
+      }
+    },
+    {
+      "label": "side_text",
+      "confidence": 0.6947,
+      "bbox": {
+        "x1": 136,
+        "y1": 173,
+        "x2": 143,
+        "y2": 234
+      },
+      "scores": {
+        "header": -0.0,
+        "footer": -0.0,
+        "main_text": -0.999,
+        "side_text": 3.5,
+        "filler": 2.5
+      }
+    },
+    {
+      "label": "filler",
+      "confidence": 0.9812,
+      "bbox": {
+        "x1": 2035,
+        "y1": 727,
+        "x2": 2047,
+        "y2": 749
+      },
+      "scores": {
+        "header": -3.0,
+        "footer": 1.5,
+        "main_text": -1.999,
+        "side_text": -3.5,
+        "filler": 5.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "image": "palm_leaf_sample.png",
+  "source_path": "data/test_images/palm_leaf_sample.png",
+  "page_width": 1665,
+  "page_height": 646,
+  "estimated_skew_deg": 0.0,
+  "processing_time_s": 0.176,
+  "num_regions": 1,
+  "regions": [
+    {
+      "label": "main_text",
+      "confidence": 0.994,
+      "bbox": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 1665,
+        "y2": 646
+      },
+      "scores": {
+        "header": -1.5,
+        "footer": -1.5,
+        "main_text": 5.0,
+        "side_text": -1.5,
+        "filler": -1.5
+      }
+    }
+  ]
+}
